@@ -1,3 +1,3 @@
 <?php
-	echo 'this is a sample svn edited';
+	echo 'this is a sample svn edited and edited again';
 ?>

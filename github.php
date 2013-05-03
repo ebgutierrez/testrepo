@@ -1,1 +1,5 @@
-<?php `git pull`;  ?>
+<?php 
+
+exec('git pull https://github.com/ebgutierrez/testrepo.git master');  
+
+?>
