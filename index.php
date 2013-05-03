@@ -1,3 +1,3 @@
 <?php
-	echo 'this is a sample';
+	echo 'akong gibalik sauna';
 ?>
