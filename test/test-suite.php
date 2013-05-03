@@ -161,10 +161,12 @@ class Git_TestSuite {
 	}
 
 }
-
-if (__FILE__ == $_SERVER['SCRIPT_FILENAME']) {
-	header("Content-Type: text/plain");
+echo 'File:  ' . __FILE__ . '<br>';
+echo 'Another: ' . $_SERVER['SCRIPT_FILENAME'];
+//if (__FILE__ == str_replace('/', '\\', $_SERVER['SCRIPT_FILENAME'])) {
+	//header("Content-Type: text/plain");
+	echo 'luja';
 	Git_TestSuite::run();
-}
+//} else {echo 'eav';}
 
 /* End Of File */
